@@ -4,6 +4,10 @@ import logo from '../../logo.png';// Adjust the path as necessary
 
 
 const Header = () => {
+  const handleLogoClick = () => {
+    // Handle logo click if needed
+    console.log('Logo clicked');
+  };
   return (
     <header>
       <div className="top-strip py-2 border-t-[1px] border-gray-250 border-b-[1px]">
